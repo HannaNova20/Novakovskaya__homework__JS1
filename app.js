@@ -1,4 +1,4 @@
-/* 1 task
+1 task
 
  function sayHello(name) {
     if (name === "Mark") {
@@ -11,9 +11,9 @@
 console.log (sayHello("Oleg"));
 console.log (sayHello("Viktor"));
 console.log (sayHello("Mark"));
-*/
 
-/*const sayHello=(name) => {
+
+const sayHello=(name) => {
     if (name === "Mark") {
         return "Hi," + " " + name + "!";
     }
@@ -24,12 +24,12 @@ console.log (sayHello("Mark"));
 console.log (sayHello("Oleg"));
 console.log (sayHello("Viktor"));
 console.log (sayHello("Mark"));
-*/
 
 
 
 
-/* 2 task
+
+2 task
 function pythagorean(sideM, sideN) {
     return Math.sqrt(Math.pow (sideM, 2) + Math.pow (sideN, 2));
 }
@@ -38,12 +38,11 @@ console.log (pythagorean (4, 3));
 const pythagorean = (sideM, sideN) => {
     return Math.sqrt(Math.pow(sideM, 2) + Math.pow(sideN, 2));
 }
-console.log (pythagorean(4, 3)); */
+console.log (pythagorean(4, 3)); 
 
 
 
-
-/* 3 task
+3 task
 
 function min(a, b) {
     if (a >= b) {
@@ -68,13 +67,13 @@ const min = (a, b) => {
 console.log (min (2, 5));
 console.log (min (3, -1));
 console.log (min (1, 1));
-*/
 
 
 
 
 
-/* 4 task 
+
+4 task 
 
 function isEven (n) {
     if(!(n % 2)) {
@@ -98,7 +97,6 @@ const isEven = (n) => {
 console.log (isEven(5));
 console.log (isEven(4));
 console.log (isEven(95));
-*/
 
 
 
@@ -106,7 +104,8 @@ console.log (isEven(95));
 
 
 
-/* task 5
+
+task 5
 
 function deleteChars(str) {
     const someString = str.slice(1, -1);
@@ -121,7 +120,6 @@ const deleteChars = (str) => {
 }
 console.log(deleteChars("Hello"));
 console.log(deleteChars("A"));
-*/
 
 
 
@@ -129,7 +127,8 @@ console.log(deleteChars("A"));
 
 
 
-/* task 6 
+
+task 6 
 
 function someFn(string) {
     return string.charAt(0).toUpperCase(1) + string.slice(1).toLowerCase(-1);
@@ -140,7 +139,6 @@ const someFn = (string) => {
     return string.charAt(0).toUpperCase(1) + string.slice(1).toLowerCase(-1);
 }
 console.log(someFn('пиТЕР'));
-*/
 
 
 
@@ -150,7 +148,7 @@ console.log(someFn('пиТЕР'));
 
 
 
-/* task 7 
+task 7 
 
 
 function someFn(numbers, strings) {
@@ -158,7 +156,6 @@ function someFn(numbers, strings) {
     return result;
 }
 console.log(someFn([1,2,3], ['1', '2', '3']));
-*/
 
 
 
@@ -167,7 +164,8 @@ console.log(someFn([1,2,3], ['1', '2', '3']));
 
 
 
-/* task 8 
+
+task 8 
 
 function arrayFn(numbers1, numbers2) {
     const result = [...numbers1, ...numbers2];
@@ -179,14 +177,14 @@ const arrayFn = (numbers1, numbers2) => {
     const result = [...numbers1, ...numbers2];
     return result;
 }
-console.log(arrayFn([1,2,3], [4,5,6])); */
+console.log(arrayFn([1,2,3], [4,5,6])); 
 
 
 
 
 
 
-/* task 9 
+task 9 
 
 function stringCutter(argument1, argument2) {
     for (let i=0; i < argument1.length; i++) {
@@ -201,7 +199,7 @@ const stringCutter = (argument1, argument2) => {
     }
 }
 console.log(stringCutter("Привет, мир!", 6)); 
-*/
+
 
 
 
