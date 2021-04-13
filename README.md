@@ -1,1 +1,1 @@
-# Novakovskaya__homework__JS1
+# Novakovskaya__JS__first_homework
